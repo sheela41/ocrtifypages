@@ -1,0 +1,283 @@
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+    
+
+.navbar img{
+    border-radius: 50px;
+}
+.input-group-text{
+    background: transparent;
+}
+.cover-heading{
+    color: black;
+    text-align: center;
+    margin-right: 170px;
+    margin-top: 160px;
+
+}
+.lead{
+    color:black;
+    font-family:  sans-serif;
+    text-align: center;
+    margin-right: 170px;
+}
+.section1{
+    text-align: center;
+   
+}
+.buttons{
+    text-align: center;
+}
+.section1 img{
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 25%;
+    margin-right: 50px;
+    
+    
+   
+    
+}
+.header2{
+   
+    background-image: url('../images/gray.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+   
+    
+}
+.section{
+    background-image: url('../images/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+    
+
+}
+.boxsalt{
+   
+    position: absolute;
+	top: 50%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 500px;
+	padding: 80px 50px;
+	background:rgba(65, 57, 57, 0.3);
+    margin-top: 4%;
+    margin-right: 10%;
+    padding-right: 10%;
+    
+}
+.buttons{
+    margin-right: 50px;    
+    margin-top: 50px;
+  
+}
+.section1 h3{
+    margin-right: 50px;
+   
+    color:black;
+}
+.headerp{
+    background-image: url('../images/leaf.gif');
+    width:900px;
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+.headerp h2{
+    color: palevioletred;
+    margin-top: 20%;
+    text-align: center;
+    
+}
+.form-signin
+{
+    margin-left: 4%;
+    margin-top: 10%;
+}
+.form-signin h1{
+    color: black;
+    font-size: 40px;
+    font-family: Bold;
+
+}
+
+.container5{
+ 
+    margin-left: 20%;
+    margin-right: 40%;
+
+}
+
+.h3{
+    margin-left: 48%;
+    color: white;
+    margin-top: 2%;
+}
+.sectionad3{
+    background-image: url('../images/laptop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
+}
+.checkbox{
+    color: black;
+}
+#floatingInput1{
+    
+    -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:10px 40px;
+    margin-left: 50%;
+    
+}
+.form-floating input{
+    -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+   
+}
+#log{
+    color:black;
+    margin-left: 30%;
+  padding-top: 25%;
+}
+#lug{
+    padding-top: 5%;
+    padding-left: 18%;
+    color: black;
+    font-family:  'Arial Narrow Bold';
+   
+}
+#rem{
+    color:black;
+    
+}
+.container8 h1{
+    text-align: center;
+}
+.container8 h6{
+    font-family:"Times New Roman", Times, serif;
+    font-size: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+.footer{
+    background-image: url('../images/footer2.jpg');
+    color: white;
+    text-align: center;
+    padding:20px 40px;
+
+}
+.fa {  
+    width: 30px;
+    padding: 20px;
+    
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 0px;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    
+  }
+  .fa-linkedin {
+   
+    
+  }
+  .fa-twitter {
+    
+  }
+  #logg{
+      margin-right: 50%;
+
+      color: black;
+      padding-top: 6%;
+      font-family: 'Arial Narrow Bold';
+      padding-left: 8%;
+      
+      
+      
+  }
+  .form-floatings{
+      margin-left: 39%;
+      
+      
+  }
+  .form-floatings input{
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+       border:solid 1px black;
+       padding:5px;
+       
+  }
+  #floatingdash{
+    padding-left: 5%;
+    
+    background:white;
+    padding-right: 8%;
+    
+    border: none;
+    border-bottom: 1px solid #000000;
+
+  }
+  #remm{
+    margin-left: 39%;
+  }
+  #opage{
+    margin-left: 39%;
+  }
+  #si{
+    margin-left: 39%;
+  }
+  .section a{
+      color: white;
+      text-decoration: none;
+  }
+  #ter{
+      margin-left: 52%;
+  }
+  #usrlg a{
+      color: white;
+      text-decoration: none;
+  }
+  #usrlg{
+      color: black;
+  }
+  #mlver{
+    background-image: url('../images/footer1.png');
+    height: 700px;
+  }
+  #ver{
+      padding-top: 20%;
+      padding-left: 10%;
+  }
+  #verbtn{
+      margin-left: 70%;
+  }
+ #chk{
+     margin-left: 52%;
+     color: white;
+ }

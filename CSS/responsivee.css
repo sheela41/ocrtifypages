@@ -1,0 +1,59 @@
+@media only screen   and (max-width:500px){
+    .cover-heading{
+        align-items: center;
+        color: black;
+        margin-right: 78%;
+       font-family: Bold;
+   
+    }
+    .lead{
+        margin-right: 78%;
+        font-size: 50px;
+    }
+    .section1 img{
+        border-radius: 50%;
+        width: 15%;
+        margin-right: 80%;
+        margin-left: 5%;
+       
+    }
+    .section1 h3{
+       margin-right: 80%;
+       margin-left: 5%;
+      
+    }
+    .buttons{
+        margin-right: 80%;
+        margin-left: 5%;
+    }
+    .headerp h2{
+        margin-right: 70%;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+    
+.sectionad{
+    flex-direction: column-reverse;
+}
+.headerp{
+    height: 300px;
+}
+.headerp h2{
+    margin-top: 10%;
+}
+.container5{
+    margin-right:100%;
+    margin-left: 5%;
+    
+}   
+#floatingInput1{
+    padding-left: 0px;
+    border:2px solid white;
+    background: white;
+    padding-right: 0px;
+}
+
+
+       
+        
+    

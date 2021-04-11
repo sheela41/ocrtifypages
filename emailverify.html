@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/styleee.css">
+    <link rel="stylesheet" href="CSS/responsivee.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="C:\Users\cp\Documents\ocertifypg\images\oretes1.png" width="80px" height="30px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link " href="home.html">Home </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="#about">About</a>
+                </li>
+               
+                <li class="nav-item active">
+                    <a class="nav-link " href="contact.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-bs-toggle="modal" data-bs-target="#verifyModal" href="">Verify</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " data-bs-toggle="modal" data-bs-target="#validateModal"href="">Validate</a>
+                  </li>
+          
+
+            </ul>
+        </div>
+    </nav>
+     <!-- verify Modal -->
+<div class="modal fade" id="verifyModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="verifyModalLabel">Verify</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputname1">Name</label>
+              <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" placeholder="Enter Name">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputname1">course</label>
+              <input type="course" class="form-control" id="exampleInputcourse1" aria-describedby="nameHelp" placeholder="Enter course">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputname1">College Name</label>
+              <input type="collegename" class="form-control" id="exampleInputcollegename1" aria-describedby="nameHelp" placeholder="Enter College Name">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Hash</label>
+              <input type="hash" class="form-control" id="exampleInputPassword1" placeholder="enter hash">
+            </div>
+           <br>
+            <button type="submit" class="btn btn-primary">Verify</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--validate Modal -->
+  <div class="modal fade" id="validateModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">validate</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputname1">Hash</label>
+              <input type="collegename" class="form-control" id="exampleInputhashname1" aria-describedby="nameHelp" placeholder="Enter hash">
+              
+            </div>
+            
+           <br>
+            <button type="submit" class="btn btn-primary">validate</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sectionad3" id="mlver">
+    <div class="container5 ">
+      <form>
+        <h1 class="h3 mb-4 fw-normal" id="ver"> Enter your Email </h1>
+
+        <div class="form-floating">
+          <input type="text" class="form-control-lg" id="floatingInput1" placeholder="Email-id">
+          <label for="floatingInput"></label>
+          </div><br>
+          <a href="passwordreset.html" class="  btn btn-md btn-danger" id="verbtn">verify</a>
+          </form>
+          </div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
