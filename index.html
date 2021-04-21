@@ -19,118 +19,56 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <img src="C:\Users\cp\Documents\ocertifypg\images\oretes1.png" width="80px" height="30px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav active">
-        <li class="nav-item ">
-          <a class="nav-link " href="home.html">Home </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link " href="#about">About</a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link " href="contact.html">Contacts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " data-bs-toggle="modal" data-bs-target="#verifyModal" href="">Verify</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link "data-bs-toggle="modal" data-bs-target="#validateModal" href="">Validate</a>
-        </li>
-
-
-      </ul>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"> 
+        <img src="C:\Users\cp\Documents\ocertifypg\images\oretes1.png" width="80px" height="30px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="verify.html">Verify</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="validate.html">Validate</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Search
+            </a>
+            <ul class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <div class="input-group mt-2 mx-2">
+                  <div class="form-outline">
+                    <input type="search" id="form1" class="form-control-dropdown" />
+                    <label class="form-label" for="form1">Search</label>
+                  </div>
+                </div>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="http://oretesacademy.com/Datascience.php">Data Science</a></li>
+              <li><a class="dropdown-item" href="http://oretesacademy.com/react.php">React</a></li>
+              <li><a class="dropdown-item" href="http://oretesacademy.com/Full%20Stack%20Web%20Developer-Django.php">Django</a></li>
+          
+        </ul>
+        
+      </div>
     </div>
   </nav>
-  <div class="container">
-    <nav class="navbar navbar-light bg-light">
-      <form class="container-fluid">
-        <div class="input-group">
-          <span class="input-group-text" id="basic-addon1"></span>
-          <input type="text" class="form-control" placeholder="search" aria-label="search"
-            aria-describedby="basic-addon1">
-        </div>
-      </form>
-    </nav>
-  </div>
-  <!-- verify Modal -->
-<div class="modal fade" id="verifyModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="verifyModalLabel">Verify</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputname1">Name</label>
-            <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" placeholder="Enter Name">
-            
-          </div>
-          <div class="form-group">
-            <label for="exampleInputname1">course</label>
-            <input type="course" class="form-control" id="exampleInputcourse1" aria-describedby="nameHelp" placeholder="Enter course">
-            
-          </div>
-          <div class="form-group">
-            <label for="exampleInputname1">College Name</label>
-            <input type="collegename" class="form-control" id="exampleInputcollegename1" aria-describedby="nameHelp" placeholder="Enter College Name">
-            
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Hash</label>
-            <input type="hash" class="form-control" id="exampleInputPassword1" placeholder="enter hash">
-          </div>
-         <br>
-          <button type="submit" class="btn btn-primary">Verify</button>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--validate Modal -->
-<div class="modal fade" id="validatesModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="signupModalLabel">validate</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputname1">Hash</label>
-            <input type="collegename" class="form-control" id="exampleInputhashname1" aria-describedby="nameHelp" placeholder="Enter hash">
-            
-          </div>
-          
-         <br>
-          <button type="submit" class="btn btn-primary">validate</button>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
+  
 
 
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade my-4" data-bs-ride="carousel">
     <div class="carousel-indicators" id="home">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -155,7 +93,7 @@
         <img src="C:\Users\cp\Documents\ocertifypg\images\black.jpg" width="800" height="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h2>Learn various courses online</h2>
-          <a href="login.html" class="  btn btn-md btn-danger">Lets start</a>
+          <a href="http://oretesacademy.com/" class="  btn btn-md btn-danger"> View Courses</a>
 
         </div>
       </div>

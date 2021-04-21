@@ -1,4 +1,4 @@
-@media only screen   and (max-width:500px){
+@media only screen   and (max-width:1200px) and (min-width:400px){
     .cover-heading{
         align-items: center;
         color: black;
@@ -6,6 +6,8 @@
        font-family: Bold;
    
     }
+    
+    
     .lead{
         margin-right: 78%;
         font-size: 50px;
@@ -15,32 +17,33 @@
         width: 15%;
         margin-right: 80%;
         margin-left: 5%;
+        max-width: 100%;
+        
        
     }
     .section1 h3{
-       margin-right: 80%;
-       margin-left: 5%;
+      
+       margin-right: 37%;
+       max-width: 100%;
       
     }
     .buttons{
         margin-right: 80%;
         margin-left: 5%;
     }
-    .headerp h2{
-        margin-right: 70%;
-        margin-left: 2%;
-        font-size: 20px;
-    }
     
-.sectionad{
-    flex-direction: column-reverse;
-}
-.headerp{
-    height: 300px;
-}
-.headerp h2{
-    margin-top: 10%;
-}
+    
+    
+
+   .form-signin{
+       padding-left: 2%;
+       margin-right: 4%;
+       
+   }
+
+
+
+
 .container5{
     margin-right:100%;
     margin-left: 5%;
@@ -52,8 +55,283 @@
     background: white;
     padding-right: 0px;
 }
+.row{
+    padding-right: 7%;
+}
+.text-center{
+    padding-right: 8%;
+}
+#email{
+    margin-top: 8%;
+}
+.verify-body{
+
+   
+    position:relative;
+   
+   left: 48%;
+   
+   
+   width: 60%;
+   height: 2px;
+   background: transparent;
+
+}
+.section1 img{
+    margin-left: 25%;
+    width:50%;
+}
+.section1 h3{
+    
+    padding-left: 35%;
+}
+.buttons{
+    
+    flex-direction: row-reverse;
+    margin-left: 70%;
+   
+}
+.headerp{
+    max-width: 100%;
+}
+.header2{
+    max-width: 100%;
+    height: 900px;
+}
+
+#logg{
+    margin-right: 20px;
+   margin-top: 2%;
+   padding-right: 3%;
+   padding-left: 3%;
+   max-width: 100%;
+}
+.section{
+    position: relative; 
+    max-width: 100%;
+   
+
+}
+.boxsalt{
+    background: transparent;
+   
+    
+    
+    
+}
+.form-floatings input{
+  margin-right: 10%;
+   
+}
+
+#super{
+    margin-right: 32%;
+   
+}
+#super a{
+    padding-left: 10px;
+
+}
+.main-verification-input {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 14px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.0)
+}
+
+.main-verification-input-item {
+    width: 100%;
+    border: 1px solid #eee;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px
+}
+
+.main-verification-input-item input {
+    border-radius: 6px !important;
+    background: #fff
+}
+
+.main-verification-button {
+    position: relative;
+    float: left;
+    width: 100%;
+    border-radius: 6px
+}
 
 
+
+
+
+ 
+
+
+}
+
+   
+   
+
+
+  
+
+
+@media only screen   and (max-width:765px) and (min-width:460px){
+    .headerp h2{
+        margin-top: 4%;
+    }
+    #log{
+       padding-top: 1%;
+       padding-left: 4%;
+       
+    }
+    .headerp{
+        max-width: 100%;
+        height: 400px;
+    }
+    
+    .form-floating{
+        margin-left: 24%;
+    }
+    #rem{
+        margin-left: 30%;
+    }
+    #lgin{
+        margin-left: 40%;
+    }
+    #dt{
+        margin-left: 37%;
+    }
+}
+@media only screen   and (max-width:459px) and (min-width:411px){
+
+.headerp h2{
+        margin-top: 4%;
+
+}
+#log{
+    padding-top: 1%;
+    padding-left: 3%;
+    
+ }
+ .headerp{
+     max-width: 100%;
+     height: 400px;
+ }
+ .form-floating{
+    margin-left: 22%;
+}
+#rem{
+    margin-left: 22%;
+}
+#lgin{
+    margin-left: 45%;
+}
+#dt{
+    margin-left: 40%;
+}
+.form-signin{
+    padding-right: 18%;
+}
+        
+}
+@media only screen   and (max-width:570px) and (min-width:411px){
+    .boxsalt{
+        max-width: 100%;
+        top: 30%;
+    }
+    #logg{
+        margin-left: 40%;
+       
+     
+    }
+    .form-floatings {
+        margin-left: 1%;
+        padding-left: 20%;
+        padding-right: 20px;
+        margin-right: 2%;
+    }
+    #remm{
+        color: white;
+        margin-right: 2%;
+    }
+    #opage{
+       padding-right: 7%;
+       margin-left: 24%;
+     
        
         
+    }
+    #si{
+        padding-right: 7%;
+       margin-left: 24%;
+    }
+}
+
+@media only screen   and (max-width:579px) and (min-width:411px){
+    #super a{
+        padding-left: 5px;
+       
+    }
+    #super{
+        padding-right: 2px;
+        margin-right: 2%;
+    }
+}
+@media only screen   and (max-width:490px) and (min-width:411px){
+
+    .pass h1{
+        padding-left: 7%;
+    }
+    .section123{
+        padding-left: 8px;
+        padding-right: 15%;
+    }
+    #nob{
+        margin-left: 4%;
+    }
+    #chpass{
+        padding:4px 25px;
+        margin-left: 5%;
+        margin-right: 7%;
     
+    }
+}
+@media only screen   and (max-width:541px) and (min-width:491px){
+    .section123{
+        padding-left: 8px;
+        padding-right: 15%;
+    }
+    #nob{
+        margin-left: 5%;
+    }
+    #chpass{
+       
+        margin-left: 5%;
+        margin-right: 10%;
+        padding:4px 7px;
+    
+    }
+    .pass h1{
+        padding-left: 7%;
+    }
+}
+@media only screen   and (max-width:768px) and (min-width:542px){
+    .pass h1{
+        padding-left: 10%;
+    }
+    #nob{
+        margin-left: 5%;
+    }
+    .section123{
+        padding-left: 9%;
+        padding-right: 5%;
+        margin-left: 15%;
+    }
+    #chpass{
+       
+        margin-left: 7%;
+        margin-right: 15%;
+        padding:8px 10px;
+    
+    }
+}
